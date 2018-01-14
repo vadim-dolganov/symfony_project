@@ -1,0 +1,11 @@
+all:
+  propel:
+    class: sfPropelDatabase
+    param:
+      classname: PropelPDO
+      dsn: 'mysql:host=us-cdbr-iron-east-05.cleardb.net;dbname=heroku_60ae52f57b33a99'
+      username: b135bc47b2f197
+      password: eb14b5f2
+      encoding: utf8
+      persistent: true
+      pooling: true

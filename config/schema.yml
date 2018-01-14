@@ -1,0 +1,13 @@
+propel:
+  _attributes:
+    package: lib.model
+    defaultIdMethod: native
+  user:
+    _attributes: { phpName: User }
+    id: { type: integer, primaryKey: true, autoIncrement: true, required: true }
+    login: { type: varchar(50), required: true }
+    password: { type: varchar(100), required: true }
+    first_name: { type: varchar(255), required: false }
+    last_name: { type: varchar(255), required: false }
+    role: { type: varchar(10), required: true }
+    _uniques: { user_U_1: [login] }

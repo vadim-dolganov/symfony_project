@@ -1,0 +1,21 @@
+logInSuccess:
+  metas:
+    title: Вход
+
+registrationSuccess:
+  metas:
+    title: Регистрация
+
+userListSuccess:
+  metas:
+    title: Список пользователей
+  javascripts: [vendor/systemJs/system.js, script.js]
+
+editUserSuccess:
+  metas:
+    title: Редактирование пользователя
+  javascripts: [vendor/systemJs/system.js, script.js]
+
+userProfileSuccess:
+  metas:
+    title: Профиль

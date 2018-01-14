@@ -1,0 +1,18 @@
+userList:
+  is_secure: true
+  credentials: [admin]
+
+logIn:
+  is_secure: false
+
+profile:
+  is_secure: true
+  credentials: [[admin, user]]
+
+registration:
+  is_secure: false
+
+deleteUser:
+  is_secure: true
+  credentials: [admin]
+

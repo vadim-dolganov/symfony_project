@@ -1,0 +1,42 @@
+profile:
+    url:   /user/profile
+    param: { module: user, action: userProfile }
+
+user_list:
+    url:   /user/user_list
+    param: { module: user, action: userList }
+
+log_in:
+    url:   /user/log_in
+    param: { module: user, action: logIn }
+
+log_out:
+    url:   /user/log_out
+    param: { module: user, action: logOut }
+
+edit_my_profile:
+    url:   /user/edit
+    param: { module: user, action: editUser }
+
+edit_user:
+    url:   /user/edit/:login
+    param: { module: user, action: editUser }
+
+delete_user:
+    url:   /user/delete/:login
+    param: { module: user, action: deleteUser }
+
+registration:
+    url:   /user/registration
+    param: { module: user, action: registration }
+
+homepage:
+  url:   /
+  param: { module: user, action: logIn }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
